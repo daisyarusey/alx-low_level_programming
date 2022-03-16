@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
 * main - Entry point
@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	char str[] ="_putchar";
 	for(i=0;str[i];i++)
-		printf("%c",str[i]);
-	printf("\n";
+		_putchar(str[i]);
+	_putchar("\n");
 	return(0);
 }
