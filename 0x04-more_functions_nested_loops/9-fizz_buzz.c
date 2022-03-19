@@ -4,7 +4,7 @@
  * @void: no argument
  * Return: 0 Success
  */
-void fizz_buzz(void)
+void main(void)
 {
 	int i;
 
@@ -28,5 +28,5 @@ void fizz_buzz(void)
 		}
 	}
 	printf("Buzz");
-	printf('\n');
+	printf("\n");
 }
