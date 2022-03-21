@@ -7,7 +7,7 @@
 void more_numbers(void)
 {
 
-	char c;
+	int c;
 	int i;
 
 	i = 0;
@@ -20,7 +20,11 @@ void more_numbers(void)
 			{
 				_putchar((c / 10) + '0');
 			}
-			_putchar((c % 10) + '0');
+			else
+			{
+
+				_putchar((c % 10) + '0');
+			}
 		}
 		_putchar('\n');
 		i++;
