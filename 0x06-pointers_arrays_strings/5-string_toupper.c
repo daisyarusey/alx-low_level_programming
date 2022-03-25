@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * string_toupper - changes all lowercase to uppercase.
- * @p: string to be modofied.
+ * @s: string to be modofied.
  * Return: modified string.
  */
-char *string_toupper(char *s)	
+char *string_toupper(char *s)
 {
 	int a = 0;
 
