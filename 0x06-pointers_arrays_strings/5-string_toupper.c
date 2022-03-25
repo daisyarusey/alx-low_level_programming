@@ -4,17 +4,17 @@
  * @p: string to be modofied.
  * Return: modified string.
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)	
 {
 	int a = 0;
 
-	while (p[a])
+	while (s[a])
 	{
-		if (p[a] >= 97 && p[a] <= 122)
+		if (s[a] >= 97 && s[a] <= 122)
 		{
-			p[a] -= 32;
+			s[a] -= 32;
 		}
 		a++;
 	}
-	return (p);
+	return (s);
 }
